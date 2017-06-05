@@ -1,0 +1,77 @@
+body{
+  background-color: #e8e8e8;
+  font-family: "Relaway", sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header{
+  background-color: #956fd6;
+  padding: 8px;
+}
+
+header .container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.white-card{
+  margin: auto;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDN-MMBR4UmvzWc3nj2FHIPQZ_wBE_gAURjkNPHTCddsCCSZharQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.check-box{
+  height: 10px;
+  width: 10px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: inline-flex;
+  margin-right: 100px;
+}
+
+.subs{
+  background-color:  rgba(125, 91, 162, 0.8);
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.tareas{
+  font-weight: bold;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
+
+.checked{
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+#input-item{
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 5px;
+  width: 95%;
+}
+
+.todo button{
+  float: right;
+  background-color: #915daf;
+  color: white;
+  font-weight:bold;
+  border-radius: 5px;
+  width: 30%;
+  height: 13%;
+}
